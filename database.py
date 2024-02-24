@@ -1,6 +1,6 @@
 import pymongo
-from config import MongoDB_Atalas_COnnection_String
+from config import DB_URL
 
-client = pymongo.MongoClient(MongoDB_Atalas_COnnection_String)
+client = pymongo.MongoClient(DB_URL)
 db = client["account_generator"]
 collection = db["accounts"]
