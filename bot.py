@@ -38,7 +38,7 @@ def check_joined():
 @bot.on_message(filters.command('start') & filters.private & check_joined())
 async def start(bot, message):
     await bot.send_message(message.chat.id,
-                           f"""<b>Hi {message.from_user.first_name}</b>,\n\n<b>I am an Account Generator Bot</b>\n<b>I can provide premium accounts of different services</b>\n<b>Click on /gen to generate accounts.</b>\n\n❤️<b>Brought to You By {FORCESUB_CHANNEL}❤️""")
+                           f"""<b>Hi {message.from_user.first_name}</b>,\n\n<b>I am an Account Generator Bot</b>\n<b>I can provide premium accounts of different services</b>\n<b>Click on /gen to generate accounts.</b>\n\n❤️<b>Brought to You By @{FORCESUB_CHANNEL}❤️""")
 
 @bot.on_message(filters.command('addhits') & filters.private)
 async def add_hits(bot, message):
