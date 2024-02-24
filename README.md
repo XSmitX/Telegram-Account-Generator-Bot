@@ -33,4 +33,4 @@ DB_URL: Get mongo DB URI from mongodb.com
 
 # Contact
 
-Telegram username - [@HMrXed](https://t.me/mrxed)
+Telegram username - [@MrXed](https://t.me/mrxed)
