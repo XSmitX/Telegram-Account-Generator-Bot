@@ -45,7 +45,7 @@ async def start(bot, message):
         ]
     )
     await bot.send_message(message.chat.id,
-                           f"""<b>Hi {message.from_user.first_name}</b>,\n\n<b>I am an Account Generator Bot</b>\n<b>I can provide premium accounts of different services</b>\n<b>Click on /gen to generate accounts.</b>\n\n❤️<b>Brought to You By {FORCESUB_CHANNEL}❤️""" , reply_markup=inline_keyboard)
+                           f"""<b>Hi {message.from_user.first_name}</b>,\n\n<b>I am an Account Generator Bot</b>\n<b>I can provide premium accounts of different services</b>\n<b>Click on /gen to generate accounts.</b>\n\n❤️<b>Brought to You By @{FORCESUB_CHANNEL}❤️""" , reply_markup=inline_keyboard)
 
   
 @bot.on_message(filters.command('addhits') & filters.private)
