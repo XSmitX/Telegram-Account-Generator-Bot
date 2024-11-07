@@ -31,6 +31,3 @@ DB_URL: Get mongo DB URI from mongodb.com
 [@NordGenerator_Robot](https://telegram.me/NordGenerator_Robot)
 
 
-# Contact
-
-Telegram username - [@MrXed](https://t.me/mrxed)
